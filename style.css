@@ -1,0 +1,78 @@
+/*
+Theme Name: AG AVENUE
+Theme URI: https://example.com/ag-avenue
+Author: Brian Kelley
+Author URI: https://briancodedev.github.io
+Description: AG AVENUE is a modern and responsive WordPress theme designed specifically for hardware stores, offering seamless WooCommerce integration and customizable features. Figma Design: <a href="https://www.figma.com/proto/EWT7253P88gYSkY6ZXhL2u/AG-Avenue-%7C-Made-by-Brian-Kelley?node-id=251-79&p=f&t=Q6iqxPE9xzoizlRW-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=176%3A56&hotspot-hints=0" target="_blank">View the Figma Design</a> Visit Demo: <a href="#!" target="_blank">View Demo</a>
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.3
+Requires PHP: 7.2
+License: GNU General Public License v2.0 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ag-avenue
+Tags: e-commerce, hardware store, responsive, WooCommerce, custom-colors, custom-logo, custom-menu, featured-images, translation-ready
+*/
+
+/* notification navbar header styling */
+.notification {
+    height: 30px;
+    background: rgb(1,57,119);
+background: linear-gradient(90deg, rgba(1,57,119,1) 0%, rgba(0,85,145,1) 100%, rgba(255,255,255,1) 100%, rgba(255,255,255,1) 100%, rgba(60,162,255,1) 100%);
+}
+.notification .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2px;
+}
+.left-notification p {
+    color: white;
+    font-size: 16px;
+}
+.right-notification .left-side {
+    margin-right: 15px;
+}
+.right-notification a {
+    color: white;
+    font-size: 16px;
+}
+.search {
+    margin-left: 10px;
+}
+.search input {
+    width: 550px;
+}
+/* navbar location box styling */
+.location-box {
+    background-color: #E5E9F1;
+    width: 100%;
+    padding: 5px 15px;
+    border-radius: 6px;
+    margin-left: 20px;
+}
+.location-box .display-location {
+    display: flex;
+    gap: 40px;
+}
+.display-location .location-time a {
+    color: #909090;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.display-location .location-time a .time {
+    color: black;
+}
+.display-location .store-number a {
+    color: #909090;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+.display-location .store-number a .number {
+    color: black;
+}
+/* navbar styling */
+.navbar {
+    background-color: #F4F6FA;
+}
